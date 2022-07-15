@@ -1,8 +1,8 @@
 function sumArray(someArray){
 if (Array.isArray(someArray)){
-    const result = someArray.reduce (function(sum, num){
+    const result = someArray.reduce ((sum, num) => {
           return sum + num
-    },0);
+},0);
     console.log (result)
 }
 }
